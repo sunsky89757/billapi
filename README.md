@@ -14,5 +14,16 @@ SHOW_DETAIL="false"
 SHOW_BALANCE="true"
 
 # BaseURL 结尾不要带/
-BASE_URL="https://one-api.bltcy.top"
+BASE_URL="https://api.gongxiangai.top"
+```
+Vercel部署环境变量
+```
+# 展示使用明细
+REACT_APP_SHOW_DETAIL = false
+
+# 展示余额
+REACT_APP_SHOW_BALANCE = true
+
+# BaseURL 结尾不要带/
+REACT_APP_BASE_URL = https://api.gongxiangai.top
 ```
