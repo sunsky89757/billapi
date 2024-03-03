@@ -1,6 +1,9 @@
 ![img.png](img.png)
 
 # 使用方法
+
+注意：当前该方法仅支持new-api，其余程序未测试！
+
 复制.env.example文件为.env
 ```
 cp .env.example .env
