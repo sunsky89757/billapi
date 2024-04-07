@@ -246,9 +246,9 @@ const LogsTable = () => {
             </div>
             <Segment>
                 <Header as='h3'>
-                    {process.env.REACT_APP_SHOW_BALANCE == "true" && <span>余额：{balance}$</span>}
+                    {process.env.REACT_APP_SHOW_BALANCE == "true" && <span>订阅总额：{balance}$</span>}
                     <br/>
-                    {process.env.REACT_APP_SHOW_DETAIL == "true" && <span>本月已用：{usage}$</span>}
+                    {process.env.REACT_APP_SHOW_DETAIL == "true" && <span>已用额度：{usage}$</span>}
                 </Header>
                 {process.env.REACT_APP_SHOW_DETAIL == "true" &&
                     <Table basic compact size='small'>
