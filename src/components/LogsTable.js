@@ -248,7 +248,7 @@ const LogsTable = () => {
                 <Header as='h3'>
                     {process.env.REACT_APP_SHOW_BALANCE == "true" && <span>订阅总额：{parseFloat(balance).toFixed(2)}$</span>}
                     <br/>
-                    {process.env.REACT_APP_SHOW_DETAIL == "true" && <span>已用额度：{parseFloat(usage).toFixed(2)}$</span>}
+                    {process.env.REACT_APP_SHOW_DETAIL == "true" && <span>剩余额度：{(parseFloat(balance) - parseFloat(usage)).toFixed(2)}$</span>}
                 </Header>
                 {process.env.REACT_APP_SHOW_DETAIL == "true" &&
                     <Table basic compact size='small'>
